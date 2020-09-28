@@ -22,13 +22,14 @@ nav {
 h1 {
   font-size: 26px;
   position: relative;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   margin-right: 10px;
+  margin-top: 15px;
 }
 
 li {
@@ -49,7 +50,7 @@ a {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -65,19 +66,30 @@ h4 {
 
   margin-top: 0;
   scroll-behavior: smooth;
-  background-image: url("Best-books-for-credit-unions-and-credit-union-managers.jpeg");
+  background-image: url("main-banner.png");
   background-size: cover;
 
+  background-position: 0px -30px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 40px;
+  padding-left: 50px;
   padding-top: 50px;
 }
 
 .hero-text {
-  width: 90%;
+  width: 50%;
   position: relative;
-  margin-top: 60px;
+  margin-top: 120px;
+}
+
+.hero form {
+  padding-top: 30px;
+}
+
+.btn-primary {
+  background-color: #29282b;
+  border-color: #29282b;
 }
 
 p {
@@ -92,12 +104,14 @@ p {
 
 .hero-text p {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 22px;
+  padding-top: 20px;
 }
 .hero-text a {
   line-height: 30px;
   font-size: 20px;
 }
+
 .hero-text a:hover {
   font-weight: 700 !important;
   letter-spacing: 1px;
