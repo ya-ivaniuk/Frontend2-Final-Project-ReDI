@@ -141,6 +141,15 @@ p {
   padding-left: 10%;
 }
 
-.fa-long-arrow-alt-right {
+.see-all-icon {
   margin-left: 20px;
+}
+
+.page-footer {
+  background-color: #b5cfd8;
+}
+
+.page-footer .row {
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
